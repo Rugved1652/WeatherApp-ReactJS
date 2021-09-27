@@ -1,0 +1,29 @@
+.container form{
+    margin-top: 3rem;
+}
+
+form input[name="city"],
+form input[name="country"]{
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray ;
+    border-radius:50px;
+    outline: none!important;
+    box-shadow:10px !important;
+}
+
+form input:focus{
+    background-color: transparent!important;
+    box-shadow: none!important;
+    border: 1px solid gray!important;
+    color: white;
+
+}
+form input,.container::-webkit-input-placeholder{
+    color: white!important;
+}
+
+.flex__custom{
+    justify-content: center;
+    align-items: center;
+}
